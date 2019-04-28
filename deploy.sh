@@ -11,7 +11,7 @@ cp app.yaml deployables/
 # copy package.json for your node application, not the one for your react app
 cp deploy/package.json deployables/
 cp -r build deployables/
-# node application entry point
+# node server
 cp index.js deployables/
 
 # rsync static objects hosted on cloud storage
